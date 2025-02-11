@@ -6,8 +6,7 @@ function App() {
 
   return (
     <>
-
-      <div className="main">
+      <div className="title">
         <h1> Nate's Resume Builder </h1>
       </div>
     </>
