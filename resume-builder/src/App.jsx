@@ -1,7 +1,7 @@
-// src/App.jsx
-import { useRef, useState } from "react";
+import React, { useRef, useState } from "react";
 import ResumeForm from "./components/ResumeForm";
 import ResumePreview from "./components/ResumePreview";
+import { useReactToPrint } from "react-to-print";
 
 function App() {
   const [resumeData, setResumeData] = useState({});
