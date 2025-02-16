@@ -1,4 +1,3 @@
-// src/components/ResumePreview.jsx
 import React from "react";
 
 const ResumePreview = React.forwardRef(({ data }, ref) => {
