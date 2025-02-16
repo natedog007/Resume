@@ -4,6 +4,7 @@ import { useState } from 'react';
 const ResumeForm = ({ onUpdate }) => {  // Accept onUpdate from props
   const [resumeData, setResumeData] = useState({
     name: "",
+    address: "",
     email: "",
     phone: "",
     experience: "",
