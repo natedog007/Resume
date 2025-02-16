@@ -18,7 +18,7 @@ const ResumeForm = ({ onUpdate }) => {  // Accept onUpdate from props
   };
   
   return (
-    <div className="p-4 border rounded-lg shadow-md bg-white">
+    <div className="p-4 border rounded-lg shadow-md bg-white w-75">
       <h2 className="text-xl font-bold mb-2">Resume Details</h2>
       {Object.keys(resumeData).map((key) => (
         <div key={key} className="mb-2">

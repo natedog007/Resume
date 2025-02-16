@@ -8,7 +8,10 @@ function App() {
   const previewRef = useRef();
 
   const handlePrint = useReactToPrint({
-    content: () => previewRef.current,
+    content: () => {
+      console.log("previewRef.current:", previewRef.current);
+      return previewRef.current;
+    },
   });
 
   return (
