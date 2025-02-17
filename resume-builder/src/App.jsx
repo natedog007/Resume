@@ -1,12 +1,12 @@
 import React, { useRef, useState } from "react";
 import ResumeForm from "./components/ResumeForm";
-import ResumePreview from "./components/ResumePreview";
 import { useReactToPrint } from "react-to-print";
 
 function App() {
   const [resumeData, setResumeData] = useState({});
   const previewRef = useRef();
 
+  // Prints PDF
   const handlePrint = useReactToPrint({
     content: () => {
       console.log("previewRef.current:", previewRef.current);
